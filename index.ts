@@ -339,7 +339,7 @@ const server = http.createServer((req: IncomingMessage, res:ServerResponse<Incom
             
             const {categories} = Cat
             const link: any = url?.split("/")[1]
-            let unLink = link.toString();
+            let unLink = link. toString();
 
             let find: any = chart.some((el: any) =>{
                 return el.categories === unLink
